@@ -1,0 +1,2 @@
+# Scraping público en vivo. Las demás funciones básicas usan la biblioteca estándar.
+playwright==1.64.0

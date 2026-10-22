@@ -1,0 +1,42 @@
+# Entornos, cachés y archivos del sistema
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Credenciales y sesiones: nunca publicar
+.env
+.env.*
+!.env.example
+*cookie*
+*token*
+*secret*
+*credential*
+*storage_state*
+*.pem
+*.key
+*.p12
+*.pfx
+*.har
+auth.json
+
+# Resultados y datos recogidos
+data/*
+!data/.gitkeep
+tiktok_*.csv
+tiktok_*.json
+videos_tiktok.csv
+perfil_tiktok.json
+
+# El cuaderno original conserva salidas y metadatos locales.
+/Tarea_1_21_10_2026.ipynb
+
+# Versiones anteriores: conservadas solo en este equipo
+/_respaldo_local/
